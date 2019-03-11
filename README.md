@@ -7,6 +7,8 @@ This repo contains a Datatable that can render a filterable and sortable table. 
 
 ## Installation
 
+> The package is tested on laravel 5.8.*
+
 You can install the package via composer:
 
 ```bash
@@ -124,7 +126,7 @@ In your javascript you can call it like this
 $('#userstable').DataTable({
     "processing": true,
     "serverSide": true,
-    "ajax": location.href + '?table=users' //add the table parameter to make it inique
+    "ajax": location.href + '?table=users' //add the table parameter to make it unique
 });
 ```
 
