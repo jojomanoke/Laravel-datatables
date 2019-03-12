@@ -15,7 +15,7 @@ use ACFBentveld\DataTables\DataTablesQueryBuilders;
 class DataTables extends DataTablesQueryBuilders
 {
     /**
-     * The collectiosn model
+     * The collections model
      *
      * @var mixed
      * @author Wim Pruiksma
